@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng máy tinh</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend> Caculator</legend>
+        <input type="text" value="0" id="value1">
+        <input type="text" value="0" id="value2"><br>
+        <button type="button" onclick="addition(getNumber1(),getNumber2());">Addition</button>
+        <button type="button" onclick="subtraction(getNumber1(),getNumber2());">subtraaction</button>
+        <button type="button" onclick="Multiplication(getNumber1(),getNumber2());">Multiplication</button>
+        <button type="button" onclick="division(getNumber1(),getNumber2());">division</button>
+    <br>
+        Result: <div id = "result"></div>
+    </fieldset>
+</form>
+<script type="text/javascript" src="myJS.js"></script>
+</body>
+</html>
